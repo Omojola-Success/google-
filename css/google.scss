@@ -1,0 +1,177 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display:block;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.nav{
+    background: transparent;
+}
+.nav ul{
+    margin: 0;
+    padding: 30px;
+    display: content;
+    position: relative;
+    line-height: 40px;    
+
+}
+.nav ul li{
+    margin-top: -30px;
+    padding: 10px;
+    display: block;
+    position:sticky;
+    float: right;
+
+}
+.go:hover{
+    cursor: pointer;
+    text-decoration: underline ;
+}
+.pop{
+    margin: 0;
+    width: 25px;
+    height: auto;
+    display: flex;
+    padding-top: 8px;
+    
+    
+}
+.pop:hover{
+    cursor: pointer;
+}
+.google{
+    margin-top: -5.4%;
+    padding: 0;
+    display:block;
+    position: relative;
+    left: 33%;
+    width: auto;
+    height: auto;
+    font-size: 65px;
+}
+.google img{
+    width: 40%;
+}
+.plp{
+    width: 20px;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+
+}
+.put{
+    display: flex;
+    position: relative;
+    margin-left: 29%;
+    margin-top: -99px;
+    background-color: transparent;
+    padding: 12px;
+    margin-right: 23%;
+    border-radius: 3em;
+    box-shadow: 0 0 6px grey;
+    box-sizing: border-box;
+}
+.put:hover{
+    background-color: #e8eaf1;
+}
+
+.lop{
+    display: block;
+    width: 700px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+}
+input{
+    outline: none;
+    
+}
+.search{
+    display: block;
+    position: relative;
+    align-items: center;
+    line-break: loose;
+    margin-top: 20px;
+    left: 42%;
+    box-sizing: border-box;
+
+}
+.search input{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e8eaf1;
+    font-size: 14px;
+}
+.search input:hover{
+    // border: 1px solid black;
+    box-shadow: 0 0 2px black;
+}
+.offer{
+    font-size: 17px;
+    text-align: center;
+    margin-left: 10px;
+}
+.offer a{
+    text-decoration: none;
+    color: blue;
+}
+.offer a:hover{
+    text-decoration: underline;
+}
+.new{
+    display: block;
+
+}
+.last{
+    margin: 0;
+    padding-top: 9px;
+    background-color: #333;
+    color: #fff;
+    display: block;
+    box-sizing: border-box;
+
+}
+hr{
+    margin: 0;
+    color: #333;
+    margin: 1px;
+}
+.but p{
+    display: inline-block;
+    margin-left: -9px;
+    padding: 10px;
+    padding-bottom: -5px;
+}
+.but p a{
+    text-decoration: none;
+    color: white;
+}
+.but ul{
+    display: block;
+
+}
+.but h1{
+    display: inline-block;
+    align-items: center;
+}
+.center {
+    display: block;
+    position: relative;
+    align-items: center;
+    float: right;
+    
+}
+.pill{
+    margin: 10px;
+}
+.but a:hover{
+    text-decoration: underline;
+}
